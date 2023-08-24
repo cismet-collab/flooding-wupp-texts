@@ -1,8 +1,8 @@
 {
-  "name": "@cismet-collab/ais-generic-texts",
+  "name": "@cismet-collab/flooding-wupp-texts",
   "description": "base text library for creating rainhazardmaps help components",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "0.0.0",
   "homepage": ".",
   "main": "index.js",
   "module": "index.js",

@@ -11,10 +11,11 @@ const Component = () => {
   return (
     <GenericModalMenuSection
       sectionKey="wasserstand"
-      sectionTitle="Max. Wassertiefe oder Fließgeschwindigkeit abfragen"
+      sectionTitle="Max. Wassertiefe abfragen"
       sectionBsStyle="success"
       sectionContent={
         <div>
+          Platzhaltertext !!!
           <p>
             Durch Anklicken der Schaltfläche <Icon name="crosshairs" /> oberhalb
             des Kontrollfeldes aktivieren Sie abhängig von der eingestellten
@@ -23,8 +24,8 @@ const Component = () => {
             die Fließgeschwindigkeit abgefragt werden. Die Maximalwerte sind im
             Verlauf jeder Simulation für jede 1x1 m Rasterzelle berechnet
             worden. Anstelle der Schaltfläche erscheint in diesem Modus das
-            Anzeigefeld "Maximale Wassertiefe" bzw. "Maximale
-            Fließgeschwindigkeit" zunächst mit einem kurzen Bedienungshinweis.
+            Anzeigefeld "Maximale Wassertiefe" zunächst mit einem kurzen
+            Bedienungshinweis.
           </p>
           <p>
             Ein Klick auf eine beliebige Position in der Karte bewirkt jetzt,
@@ -46,17 +47,6 @@ const Component = () => {
             Sekunde" (m/s), gerundet auf eine Nachkommastelle.
             Fließgeschwindigkeiten von mehr als 6 Meter pro Sekunde werden als
             "> 6 m/s" angezeigt.
-          </p>
-          <p>
-            <b>Tipp für die Abfrage der maximalen Fließgeschwindigkeiten:</b>{" "}
-            Deaktivieren Sie die{" "}
-            <a onClick={() => setAppMenuActiveMenuSection("karteninhalt")}>
-              Animation
-            </a>{" "}
-            und stellen Sie einen sehr großen Betrachtungsmaßstab ein (Zoomstufe
-            21 oder 22). Dann wird Ihnen in der Kartendarstellung auch die zu
-            der maximalen Fließgeschwindigkeit gehörende Fließrichtung
-            zellenscharf angezeigt.
           </p>
           <p>
             Auch im Abfragemodus können Sie die Karte mit gedrückter linker

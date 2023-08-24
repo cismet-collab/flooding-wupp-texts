@@ -14,6 +14,7 @@ const Component = ({ uiState, uiStateActions }) => {
       sectionBsStyle="info"
       sectionContent={
         <div>
+          Platzhaltertext !!!
           <p>
             Zwei der berechneten Simulationen wurden mit "künstlichen"
             Modellregen durchgeführt. Bei diesen Simulationen erfolgt eine
@@ -28,7 +29,6 @@ const Component = ({ uiState, uiStateActions }) => {
             ist. Im Anschluss an das Niederschlagsereignis werden weitere 60
             Minuten Nachlaufzeit simuliert.
           </p>
-
           <p>
             Im dritten Szenario wurden Niederschlagsdaten vom 14.07.2021
             verwendet und damit ein Großteil der Niederschlagsbelastung des
@@ -56,7 +56,6 @@ const Component = ({ uiState, uiStateActions }) => {
               "Aussagekraft der Simulationen" zu finden.
             </a>
           </p>
-
           <p>
             Zur Einteilung der Starkregen dient der ortsbezogene{" "}
             <strong>Starkregenindex (SRI)</strong> nach Schmitt, der
@@ -72,12 +71,10 @@ const Component = ({ uiState, uiStateActions }) => {
             Münster 2014 mit insgesamt 292 mm gemessen wurde und starke Schäden
             verursachte, gehört z. B. zu der Stufe SRI 12.
           </p>
-
           <p>
             Mit diesen Erläuterungen lassen sich die drei simulierten Szenarien
             wie folgt zusammenfassen:
           </p>
-
           <ul>
             <li>
               <strong>Stärke 7</strong>: außergewöhnliches Starkregenereignis,

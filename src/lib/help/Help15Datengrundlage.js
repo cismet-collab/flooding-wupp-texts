@@ -16,6 +16,7 @@ const Component = () => {
       sectionBsStyle="warning"
       sectionContent={
         <div>
+          Platzhaltertext !!!
           <p>
             Die Modellgrundlagen und -annahmen beeinflussen die Ergebnisse
             maßgeblich. Die hierausresultierende{" "}
@@ -27,7 +28,6 @@ const Component = () => {
             </a>{" "}
             wird gesondert beschrieben.
           </p>
-
           <p>
             Die Simulationen wurden mit einem Oberflächenabflussmodell für das
             hydrologische Einzugsgebiet mit einer Auflösung von 1x1 Meter
@@ -41,7 +41,6 @@ const Component = () => {
             und Geodäsie verwendet (Bundesamt für Kartographie und Geodäsie, ©
             GeoBasis-DE / BKG (2023)).
           </p>
-
           <p>
             Das Oberflächenmodell wurde anschließend um wichtige verrohrte
             Gewässerabschnitte sowie Geländedurchlässe ergänzt, um eine
@@ -57,7 +56,6 @@ const Component = () => {
             zur möglichen Überflutung ableiten (s. auch Schaltfläche: Fehler im
             Geländemodell melden).
           </p>
-
           <p>
             Grundlage für die Modellanpassungen waren die kommunal verfügbaren
             Datensätze, Ortsbegehungen im Kreisgebiet und eine Prüfung durch
@@ -65,9 +63,7 @@ const Component = () => {
             das Modell anschließend gemeinsam mit Vertreter:innen aus den
             Kommunen geprüft und angepasst.
           </p>
-
           <p>Welche Daten wurden berücksichtigt?</p>
-
           <ul>
             <li>
               Landesweite Daten / Bezirksregierung Köln: Digitales
@@ -78,7 +74,6 @@ const Component = () => {
 
             <li>...</li>
           </ul>
-
           <p>
             Zur Betrachtung der Ergebnisse stehen drei verschiedene
             Hintergrundkarten zur Verfügung, die auf den folgenden

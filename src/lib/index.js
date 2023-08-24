@@ -42,6 +42,18 @@ const getCollabedHelpComponentConfig = ({
   ];
   const menuFooter = (
     <Help99Footer
+      appName="TopicMap Hochwasser Wuppertal"
+      taglineModelling={
+        <div>
+          <b>Modellierung</b> (14.10.2021):{" "}
+          <a
+            target="_wsw"
+            href="https://www.gis-rest.nrw.de/atomFeed/rest/atom/182925c1-879f-4054-bd69-b6f28e05b270.html"
+          >
+            Land NRW
+          </a>
+        </div>
+      }
       version={version}
       reactCismapRHMVersion={reactCismapRHMVersion}
       logoUrl={footerLogoUrl}

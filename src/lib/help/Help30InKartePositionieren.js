@@ -10,6 +10,7 @@ const Component = () => {
       sectionBsStyle="success"
       sectionContent={
         <div>
+          Platzhaltertext!!!
           <p>
             Um die Auswirkungen durch Starkregen in einem bestimmten Bereich des
             Stadtgebietes zu erkunden, geben Sie den Anfang (mindestens zwei

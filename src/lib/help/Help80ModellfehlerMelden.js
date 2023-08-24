@@ -19,6 +19,7 @@ const Component = ({ defaultContextValues = {}, email }) => {
       sectionBsStyle="danger"
       sectionContent={
         <div>
+          Platzhaltertext !!!
           <p>
             Wenn die Simulationsergebnisse eine Überflutungsgefährdung
             darstellen, die im Widerspruch zu Ihren vor Ort gewonnen Erfahrungen
@@ -35,7 +36,6 @@ const Component = ({ defaultContextValues = {}, email }) => {
             einer Brücke ein Damm. Im Ergebnis wird dann eine Aufstauung des
             Wassers angezeigt, die sich im Gelände so nicht einstellen würde!
           </p>
-
           <p>
             <b>
               Bitte helfen Sie bei der Verbesserung des Geländemodells, indem
@@ -50,7 +50,7 @@ const Component = ({ defaultContextValues = {}, email }) => {
             <a href="mailto:starkregen@cismet.de">starkregen@cismet.de</a>. Über
             diese Funktionsadresse sprechen Sie eine Gruppe von Experten:innen
             an. Das automatisch erzeugte E-Mail-Gerüst enthält einen Link, mit
-            dem diese Experten:innen die Starkregengefahrenkarte genau in dem
+            dem diese Experten:innen die TopicMap Hochwasser genau in dem
             Zustand öffnen können, den Sie eingestellt haben. Bitte ergänzen Sie
             Ihre E-Mail mit einer kurzen Darstellung des vermuteten Fehlers. Wo
             wurde vermutlich ein wichtiger Gewässerdurchlass o. Ä. übersehen?

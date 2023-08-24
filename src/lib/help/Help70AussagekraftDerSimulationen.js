@@ -15,8 +15,8 @@ const Component = () => {
       sectionContent={
         <div>
           <p>
-            Die Starkregengefahrenkarte zeigt die Ergebnisse von Simulationen,
-            die dem heutigen Stand der Technik entsprechen. Die Berechnungen
+            Die TopicMap Hochwasser zeigt die Ergebnisse von Simulationen, die
+            dem heutigen Stand der Technik entsprechen. Die Berechnungen
             basieren auf einem vereinfachten Modell der tatsächlichen
             Verhältnisse, mit dem sich kritischere Bereiche jedoch gut bestimmen
             lassen. Für eine noch differenziertere Modellierung müssten höher

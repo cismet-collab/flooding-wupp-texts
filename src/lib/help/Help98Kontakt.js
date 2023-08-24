@@ -15,13 +15,13 @@ const Component = ({ email }) => {
       sectionContent={
         <div>
           <p>
-            Für telefonische Auskünfte zum Umgang mit dem Auskunfts- und
-            Informationssystem Starkregen (AIS) stehen Ihnen die
-            Mitarbeiterinnen und Mitarbeiter der cismet GmbH zur Verfügung.
+            Für telefonische Auskünfte zum Umgang mit der TopciMap Hochwasser
+            stehen Ihnen die Mitarbeiterinnen und Mitarbeiter der
+            Stadtverwaltung Wuppertal zur Verfügung.
           </p>
           <p>
-            Weitere Informationen zum Thema „Schutz vor Starkregen“ finden Sie
-            auf der Homepage der Dr. Pecher AG.
+            Weitere Informationen zum Thema „Schutz vor Hochwasser finden Sie
+            auf der Homepage der Stadt Wuppertal.
           </p>
 
           <p style={{ display: "flex" }}>
@@ -52,15 +52,10 @@ const Component = ({ email }) => {
             <tbody>
               <tr>
                 <td style={{ textAlign: "left", paddingBottom: 20 }}>
-                  <strong>Bearbeitung des Starkregenrisikomanagement</strong>
+                  <strong>Bearbeitung des Hochwasserrisikomanagement</strong>
                 </td>
                 <td style={{ textAlign: "left", paddingBottom: 20 }}>
-                  <strong>
-                    Aufbau und Bereitstellung AIS Starkregenvorsorge
-                  </strong>
-                </td>
-                <td style={{ textAlign: "left", paddingBottom: 20 }}>
-                  <strong>Konzeption des AIS Starkregenvorsorge</strong>
+                  <strong>Aufbau und Bereitstellung TopicMap Hochwasser</strong>
                 </td>
               </tr>
               <tr>
@@ -78,14 +73,6 @@ const Component = ({ email }) => {
                     alt="Logo cismet GmbH"
                     height="40"
                     src={cismetLogo}
-                  />
-                </td>
-                <td style={{ textAlign: "left", paddingBottom: 20 }}>
-                  <img
-                    target="_contacts"
-                    alt="Logo KLAS Bremen"
-                    height="40"
-                    src={klasLogo}
                   />
                 </td>
               </tr>
@@ -112,11 +99,6 @@ const Component = ({ email }) => {
                   <br />
                   <a href="https://cismet.de/" title={"and it just works"}>
                     https://cismet.de/
-                  </a>
-                </td>
-                <td style={{ verticalAlign: "bottom" }}>
-                  <a href="https://www.klas-bremen.de/">
-                    https://www.klas-bremen.de/
                   </a>
                 </td>
               </tr>

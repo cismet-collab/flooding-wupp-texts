@@ -15,8 +15,9 @@ const Component = () => {
       sectionBsStyle="success"
       sectionContent={
         <div>
+          Platzhaltertext!!!
           <p>
-            Die Starkregengefahrenkarte unterstützt drei verschiedene
+            Die TopicMap Hochwasser unterstützt drei verschiedene
             Kartenansichten. In der stets sichtbaren Titelzeile oben im
             Kartenfenster wird Ihnen die gerade aktive Kartenansicht angezeigt.
             Standardmäßig werden die maximalen Wassertiefen dargestellt, die im
@@ -63,27 +64,6 @@ const Component = () => {
               Datengrundlagen
             </a>
             .
-          </p>
-          <p>
-            Unter <b>Animation</b> finden Sie einen Wechselschalter zum An- und
-            Ausschalten einer animierten Darstellung des Fließgeschehens
-            (Strömungsdarstellung). Standardmäßig ist diese Animation aktiviert.
-            Sie basiert auf den Maximalbeträgen der Geschwindigkeitsvektoren,
-            die für jede 1x1 m-Rasterzelle im Verlauf einer
-            Simulationsberechnung bestimmt wurden. Es wird der Abfluss in die
-            Richtung animiert, in der sich die größte Geschwindigkeit einstellt.
-            Die Animation vermittelt ein besonders anschauliches Bild des
-            komplexen Abflussgeschehens bei einem Starkregenereignis. Die
-            Animation steht nur bei der Betrachtung der Starkregengefahrenkarte
-            in einem Detailmaßstab (Zoomstufen 18 bis 22) zur Verfügung, in den
-            Übersichtsmaßstäben (Zoomstufen 17 und kleiner) wird sie automatisch
-            ausgeblendet. Die Animation wird für jede Kartenansicht neu online
-            berechnet, sodass die Anzeigegeschwindigkeit von der
-            Internetübertragung abhängt. Wenn die Animation nicht angezeigt
-            wird, blenden wir in der Kartenansicht "max. Fließgeschwindigkeiten"
-            in Detailmaßstäben (hier bis zur Zoomstufe 14) statische
-            Fließrichtungspfeile ein, um die Hauptrichtungen des
-            Regenwasserabflusses zu visualisieren.
           </p>
           <p>
             Am oberen Rand des Kontrollfeldes befindet sich eine platzsparende

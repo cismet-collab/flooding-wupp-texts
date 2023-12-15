@@ -16,7 +16,7 @@ const Component = () => {
       sectionBsStyle="warning"
       sectionContent={
         <div>
-          Platzhaltertext !!!
+          Platzhaltertext
           <p>
             Die TopicMap Hochwasser stellt in drei umschaltbaren Kartenansichten
             maximale Wassertiefen bzw. maximale Fließgeschwindigkeiten im

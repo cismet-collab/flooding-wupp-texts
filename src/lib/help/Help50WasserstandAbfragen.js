@@ -15,17 +15,12 @@ const Component = () => {
       sectionBsStyle="success"
       sectionContent={
         <div>
-          Platzhaltertext !!!
           <p>
-            Durch Anklicken der Schaltfläche <Icon name="crosshairs" /> oberhalb
-            des Kontrollfeldes aktivieren Sie abhängig von der eingestellten
-            Kartenansicht (Wassertiefen vs. Fließgeschwindigkeiten) den Modus
-            zur Abfrage der maximalen Werte. Dabei können die Wassertiefe und
-            die Fließgeschwindigkeit abgefragt werden. Die Maximalwerte sind im
-            Verlauf jeder Simulation für jede 1x1 m Rasterzelle berechnet
-            worden. Anstelle der Schaltfläche erscheint in diesem Modus das
-            Anzeigefeld "Maximale Wassertiefe" zunächst mit einem kurzen
-            Bedienungshinweis.
+            Durch Anklicken der Schaltfläche <Icon name="crosshairs" /> oberhalb 
+            des Kontrollfeldes aktivieren Sie den Modus zur Abfrage der maximalen 
+            Wassertiefen, die für jede 1x1 m Rasterzelle berechnet worden. Anstelle 
+            der Schaltfläche erscheint in diesem Modus das Anzeigefeld "Maximale 
+            Wassertiefe" zunächst mit einem kurzen Bedienungshinweis.
           </p>
           <p>
             Ein Klick auf eine beliebige Position in der Karte bewirkt jetzt,

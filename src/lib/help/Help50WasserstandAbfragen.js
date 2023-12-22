@@ -18,7 +18,7 @@ const Component = () => {
           <p>
             Durch Anklicken der Schaltfläche <Icon name="crosshairs" /> oberhalb 
             des Kontrollfeldes aktivieren Sie den Modus zur Abfrage der maximalen 
-            Wassertiefen, die für jede 1x1 m Rasterzelle berechnet worden. Anstelle 
+            Wassertiefen, die für jede 1x1 m Rasterzelle berechnet worden sind. Anstelle 
             der Schaltfläche erscheint in diesem Modus das Anzeigefeld "Maximale 
             Wassertiefe" zunächst mit einem kurzen Bedienungshinweis.
           </p>

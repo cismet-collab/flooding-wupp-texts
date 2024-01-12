@@ -38,7 +38,9 @@ const Component = () => {
             angebotenen Simulations-Szenarien durchgehen. Auch im Abfragemodus 
             können Sie die Karte mit gedrückter linker Maustaste verschieben. 
             Wenn Sie auf diese Weise oder durch{" "}
-            <a onClick={() => setAppMenuActiveMenuSection("positionieren")}>
+            <a 
+              className="renderAsLink" 
+              onClick={() => setAppMenuActiveMenuSection("positionieren")}>
               Positionierung über einen Suchbegriff
             </a>{" "}
             einen Kartenausschnitt auswählen, wird das Anzeigefeld 

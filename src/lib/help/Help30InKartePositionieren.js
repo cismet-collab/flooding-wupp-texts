@@ -10,26 +10,65 @@ const Component = () => {
       sectionBsStyle="success"
       sectionContent={
         <div>
-          Platzhaltertext!!!
           <p>
-            Um die Auswirkungen durch Starkregen in einem bestimmten Bereich des
-            Stadtgebietes zu erkunden, geben Sie den Anfang (mindestens zwei
-            Zeichen) einer Adresse im Eingabefeld links unten ein. In der
-            inkrementellen Auswahlliste werden Ihnen passende Treffer angeboten.
-            (Wenn Sie weitere Zeichen eingeben, wird der Inhalt der Auswahlliste
-            angepasst.)
+            Um die Gefährdung durch Hochwasser in einem bestimmten Bereich des 
+            Stadtgebietes zu erkunden, geben Sie den Anfang (mindestens zwei 
+            Zeichen) eines Stadtteils (Stadtbezirk oder Quartier), einer Adresse, 
+            eines interessanten Ortes (Point of Interest POI) oder eines 
+            GEP-Bereichs im Eingabefeld links unten ein. (Die Bedeutung der 
+            GEP-Bereiche wird am Ende dieses Abschnittes der Kompaktanleitung 
+            erläutert!) In der inkrementellen Auswahlliste werden Ihnen passende 
+            Treffer angeboten. (Wenn Sie weitere Zeichen eingeben, wird der Inhalt 
+            der Auswahlliste angepasst.) Durch das vorangestellte Symbol erkennen 
+            Sie, ob es sich dabei um einen {" "} 
+            <Icon name="circle"/>{" "} 
+            Stadtbezirk, ein {" "} 
+            <Icon name="chart-pie"/>{" "} 
+            Quartier, eine {" "} 
+            <Icon name="home"/>{" "} 
+            Adresse, eine {" "}  
+            <Icon name="road"/>{" "} 
+            Straße ohne zugeordnete Hausnummern, einen {" "}  
+            <Icon name="tag"/>{" "} 
+            POI, die {" "}
+            <Icon name="tags"/>{" "} 
+            alternative Bezeichnung eines POI, eine {" "} 
+            <Icon name="child"/>{" "} 
+            Kindertageseinrichtung, eine{" "} 
+            <Icon name="graduation-cap"/>{" "} 
+            Schule oder einen{" "} 
+            <Icon name="code-branch"/>{" "} 
+            GEP-Bereich handelt.
           </p>
           <p>
-            Nach der Auswahl eines Treffers aus der Liste wird die Karte auf die
-            zugehörige Position zentriert. Bei Suchbegriffen mit Punktgeometrie
-            (Adresse, Straße) wird außerdem ein großer Maßstab (Zoomstufe 14)
-            eingestellt und ein Marker <Icon name="map-marker" /> auf der
-            Zielposition platziert.
+            Nach der Auswahl eines Treffers aus der Liste wird die Karte auf die 
+            zugehörige Position zentriert. Bei Suchbegriffen mit Punktgeometrie 
+            (Adresse, Straße, POI) wird außerdem ein großer Maßstab (Zoomstufe 18) 
+            eingestellt und ein Marker <Icon name="map-marker" /> auf der Zielposition 
+            platziert. Bei Suchbegriffen mit Flächengeometrie (Stadtbezirk, Quartier, GEP) 
+            wird der Maßstab so eingestellt, dass die Fläche vollständig dargestellt werden 
+            kann. Zusätzlich wird der Bereich außerhalb dieser Fläche abgedunkelt 
+            (Spotlight-Effekt).
           </p>
           <p>
-            Durch Anklicken des Werkzeugs <Icon name="close" /> links neben dem
-            Eingabefeld können Sie die Suche zurücksetzen (Entfernung von Marker
+            Durch Anklicken des Werkzeugs <Icon name="close" /> links neben dem 
+            Eingabefeld können Sie die Suche zurücksetzen (Entfernung von Marker 
             bzw. Abdunklung, Löschen des Textes im Eingabefeld).
+          </p>
+          <p>
+            <b>Erläuterung der GEP-Bereiche</b>: In der Generalentwässerungsplanung (GEP), 
+            dem langfristigen Prozess zur Weiterentwicklung des Wuppertaler Kanalnetzes, wird 
+            nahezu das gesamte Stadtgebiet in Teilbereiche (GEP-Bereiche) eingeteilt. Die 
+            GEP-Bereiche haben eine Nummer und einen Namen, der zumeist dem Bach entspricht, 
+            in den der GEP-Bereich entwässert, z. B. "GEP 09 Mirker Bach". Alternativ können 
+            Sie die GEP-Bereiche auch über den vorangestellten Namen ansprechen, also z. B. 
+            "Mirker Bach (GEP 09)". Zusätzlich haben wir weitere wichtige Wuppertaler Bäche, 
+            die direkt in die Wupper oder die Düssel einmünden, als Alias für die zugehörigen 
+            GEP-Bereiche angelegt. Diese werden dann in der Form "Morsbach (im GEP 28 
+            Cronenberg-Ost)“ angezeigt. Für den Deilbach, dessen durch Wuppertal laufender 
+            Abschnitt nicht in einem GEP-Bereich liegt, haben wir eine individuelle Fläche 
+            gebildet, auf die Sie sich mit dem Suchbegriff "Deilbach (Wuppertaler Abschnitt)" 
+            positionieren können.
           </p>
         </div>
       }

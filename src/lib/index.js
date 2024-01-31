@@ -2,7 +2,7 @@ import React from "react";
 import {
   Help05Introduction,
   //   Help20Karteninhalt,
-  Help80ModellfehlerMelden,
+  //   Help80ModellfehlerMelden,
   //   Help90Haftungsausschluss,
   Help99Footer,
 } from "@cismet-collab/rainhazardmaps-base-texts";
@@ -15,6 +15,7 @@ import Help40MeinStandort from "./help/Help40MeinStandort";
 import Help50WasserstandAbfragen from "./help/Help50WasserstandAbfragen";
 import Help60SimulierteSzenarien from "./help/Help60SimulierteSzenarien";
 import Help70AussagekraftDerSimulationen from "./help/Help70AussagekraftDerSimulationen";
+import Help80ModellfehlerMelden from "./help/Help80ModellfehlerMelden";
 import Help90Haftungsausschluss from "./help/Help90Haftungsausschluss";
 import Help98Kontakt from "./help/Help98Kontakt";
 

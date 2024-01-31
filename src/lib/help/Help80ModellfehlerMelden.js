@@ -19,47 +19,34 @@ const Component = ({ defaultContextValues = {}, email }) => {
       sectionBsStyle="danger"
       sectionContent={
         <div>
-          Platzhaltertext !!!
           <p>
-            Wenn die Simulationsergebnisse eine Überflutungsgefährdung
-            darstellen, die im Widerspruch zu Ihren vor Ort gewonnen Erfahrungen
-            steht, liegt das wahrscheinlich an einem Fehler oder einer
-            Ungenauigkeit im Digitalen Geländemodell (DGM), welches der
-            Simulationsberechnung zugrundeliegt. Woher kommen solche Fehler? Das
-            DGM wird aus Höhenmessungen abgeleitet, die mit einem Laserscanner
-            aus einem Flugzeug heraus durchgeführt werden. Bei diesem
-            Messverfahren werden Brücken, Tunnel und Gewässerdurchlässe, die für
-            das Abflussverhalten des Oberflächenwassers wichtig sind, nicht
-            erkannt. Sie müssen daher nachträglich manuell in das DGM
-            eingearbeitet werden. Wenn dabei ein für den Abfluss sehr wichtiges
-            Element übersehen wurde, wird u. U. in der Simulationsberechnung aus
-            einer Brücke ein Damm. Im Ergebnis wird dann eine Aufstauung des
-            Wassers angezeigt, die sich im Gelände so nicht einstellen würde!
+            Wenn die Simulationsergebnisse eine Überflutungsgefährdung darstellen, 
+            die im Widerspruch zu Ihren vor Ort gewonnen Erfahrungen steht, liegt 
+            das wahrscheinlich an einem Fehler im Digitalen Geländemodell (DGM), 
+            das bei der Simulationsberechnung verwendet wird. Woher kommen solche 
+            Fehler? Das DGM wird aus Höhenmessungen abgeleitet, die mit einem 
+            Laserscanner aus einem Flugzeug heraus durchgeführt werden. Bei diesem 
+            Messverfahren werden Brücken, Tunnel und Gewässerdurchlässe, die für 
+            die Ausbreitung des Oberflächenwassers wichtig sind, nicht erkannt. 
+            Sie werden daher nachträglich manuell in das DGM eingearbeitet. Wenn 
+            dabei ein für die Ausbreitung des Wassers wichtiges Element übersehen 
+            wurde, wird u. U. in der Simulationsberechnung aus einer Brücke ein 
+            Damm. Im Ergebnis wird dann eine Aufstauung des Wassers angezeigt, 
+            die sich im Gelände so nicht einstellen würde!
           </p>
           <p>
-            <b>
-              Bitte helfen Sie bei der Verbesserung des Geländemodells, indem
-              Sie uns auf solche möglichen Fehler hinweisen.
-            </b>{" "}
-            Stellen Sie dazu die Kartenansicht (Ausschnitt, Hintergrundkarte und
-            Simulation) ein, die den von Ihnen vermuteten Fehler im DGM
-            bestmöglich darstellt. Durch Anklicken des Werkzeuges "Fehler im
-            Geländemodell melden" <Icon name="comment" /> links oben im
-            Kartenfenster öffnen Sie das auf Ihrem Rechner eingerichtete
-            E-Mail-Programm mit dem Gerüst einer Nachricht an{" "}
-            <a href="mailto:starkregen@cismet.de">starkregen@cismet.de</a>. Über
-            diese Funktionsadresse sprechen Sie eine Gruppe von Experten:innen
-            an. Das automatisch erzeugte E-Mail-Gerüst enthält einen Link, mit
-            dem diese Experten:innen die TopicMap Hochwasser genau in dem
-            Zustand öffnen können, den Sie eingestellt haben. Bitte ergänzen Sie
-            Ihre E-Mail mit einer kurzen Darstellung des vermuteten Fehlers. Wo
-            wurde vermutlich ein wichtiger Gewässerdurchlass o. Ä. übersehen?
-          </p>
-          <p>
-            In der nächsten Neuberechnung der Simulationen werden diese
-            Anpassungen dann berücksichtigt. Bitte beachten Sie in diesem
-            Zusammenhang die Versionsangabe der Simulationsergebnisse im
-            Fußbereich dieser Kompaktanleitung.
+            In unserer Hochwassergefahrenkarte benutzen wir Simulationsberechnungen, 
+            die das Landesamt für Natur, Umwelt und Verbraucherschutz NRW (LANUV) 
+            unter Beteiligung von Fachfirmen für die Risikogebiete im gesamten Land 
+            NRW durchgeführt und als Open Data publiziert hat. Wenn Sie Modellfehler 
+            vermuten (z. B. wie oben beschrieben im Geländemodell) oder in anderer 
+            Hinsicht durch die Simulationsergebnisse irritiert sind, sprechen Sie 
+            bitte das LANUV direkt an, bevorzugt per E-Mail an die Adresse 
+            {" "} <a href="mailto:poststelle@lanuv.nrw.de">poststelle@lanuv.nrw.de</a> 
+            mit dem Betreff <b>Überschwemmungsgebiete/Hochwassergefahrenkarten</b>. 
+            Die Aktualisierung der landesweiten Hochwassergefahrenkarten erfolgt allerdings 
+            in einem Turnus von sechs Jahren. Es kann also recht lange dauern, bis 
+            ihre Rückmeldung für die Aktualisierung der Hochwassergefahrenkarten herangezogen wird.
           </p>
         </div>
       }

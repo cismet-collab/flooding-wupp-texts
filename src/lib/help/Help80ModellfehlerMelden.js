@@ -1,17 +1,8 @@
 import React, { useContext } from "react";
 import GenericModalMenuSection from "react-cismap/topicmaps/menu/Section";
-import Icon from "react-cismap/commons/Icon";
-import { CustomizationContext } from "react-cismap/contexts/CustomizationContextProvider";
 
-const Component = ({ defaultContextValues = {}, email }) => {
-  const customizations =
-    useContext(CustomizationContext) || defaultContextValues;
-  let modellfehlermeldenContent =
-    customizations?.helpmenu?.modellfehlermeldenContent;
-  let _email =
-    email ||
-    customizations?.helpmenu?.modellfehlermelden?.email ||
-    "starkregen@cismet.de";
+
+const Component = () => {
   return (
     <GenericModalMenuSection
       sectionKey="modellfehlermelden"
@@ -36,14 +27,20 @@ const Component = ({ defaultContextValues = {}, email }) => {
           </p>
           <p>
             In unserer Hochwassergefahrenkarte benutzen wir Simulationsberechnungen, 
-            die das Landesamt für Natur, Umwelt und Verbraucherschutz NRW (LANUV) 
-            unter Beteiligung von Fachfirmen für die Risikogebiete im gesamten Land 
-            NRW durchgeführt und als Open Data publiziert hat. Wenn Sie Modellfehler 
+            die das {" "} 
+            <a
+                target="_legal"
+                href="https://www.lanuv.nrw.de/umwelt/wasser/service/ansprechpersonen"
+              >
+                Landesamt für Natur, Umwelt und Verbraucherschutz NRW
+            </a>{" "}
+            (LANUV) unter Beteiligung von Fachfirmen für die Risikogebiete im gesamten 
+            Land NRW durchgeführt und als Open Data publiziert hat. Wenn Sie Modellfehler 
             vermuten (z. B. wie oben beschrieben im Geländemodell) oder in anderer 
             Hinsicht durch die Simulationsergebnisse irritiert sind, sprechen Sie 
             bitte das LANUV direkt an, bevorzugt per E-Mail an die Adresse 
-            {" "} <a href="mailto:poststelle@lanuv.nrw.de">poststelle@lanuv.nrw.de</a> 
-            mit dem Betreff <b>Überschwemmungsgebiete/Hochwassergefahrenkarten</b>. 
+            {" "} <a href="mailto:poststelle@lanuv.nrw.de">poststelle@lanuv.nrw.de</a> {" "}
+            mit dem Betreff <b>Überschwemmungsgebiete / Hochwassergefahrenkarten</b>. 
             Die Aktualisierung der landesweiten Hochwassergefahrenkarten erfolgt allerdings 
             in einem Turnus von sechs Jahren. Es kann also recht lange dauern, bis 
             ihre Rückmeldung für die Aktualisierung der Hochwassergefahrenkarten herangezogen wird.

@@ -13,26 +13,28 @@ const Component = ({ appName }) => {
       sectionBsStyle="danger"
       sectionContent={
         <div>
-          Platzhaltertext !!!
           <p>
-            Alle Informationen zur Anwendung der TopicMap Hochwasser erfolgen
-            ohne Gewähr für ihre Richtigkeit. Es fällt in die Verantwortung der
-            Betrachter:innen, aus den dargestellten Informationen die
-            spezifische Gefährdungslage einzuschätzen und Schlüsse für die
-            Durchführbarkeit oder Wirtschaftlichkeit von Maßnahmen zu treffen.
-            Die Inhalte entsprechen dem aktuellen Kenntnisstand und wurden durch
-            eine abgestimmte Methodik erzeugt. Die Aussagekraft der Ergebnisse
-            und die Modellannahmen werden im Informationssystem beschrieben.
-            Aufgrund neuer Erkenntnisse, modelltechnischer Entwicklungen und
-            Vorgaben für die Modellierung können zukünftige Produkte von den
-            hier dargestellten Ergebnissen abweichen. Umgesetzte Änderungen im
-            Simulationsmodell und den resultierenden Ergebnissen werden in
-            geeigneter Weise kommuniziert.
+            Alle hier veröffentlichten Informationen wurden mit der bestmöglichen 
+            Sorgfalt aus den vom Land NRW gemäß dem Wasserhaushaltsgesetz (WHG) 
+            aktuell bereitgestellten Berechnungsergebnissen zusammengestellt und 
+            kontrolliert. Dennoch sind Fehler nie ausgeschlossen, sodass für die 
+            Richtigkeit und damit auch Nutzbarkeit der Informationen keine Gewähr 
+            übernommen werden kann (vgl. auch Abschnitt {" "} 
+            <a 
+              className="renderAsLink" 
+              onClick={() => setAppMenuActiveMenuSection("aussagekraft")}>
+              Aussagekraft der Simulationen
+            </a>{" "}
+            zu den beim heutigen Stand der Technik unvermeidbaren 
+            Unschärfen und Fehlern von modellbasierten Hochwassersimulationen). 
+            Eine Haftung für Schäden, die sich aus der Nutzung der Informationen 
+            ergeben, wird daher ausgeschlossen. Dem stimmen Sie mit der Nutzung 
+            der Daten zu.
           </p>
           <p>
-            In keinem Fall wird für Schäden, die sich aus der Verwendung
-            abgerufener Informationen oder Online-Services ergeben, Haftung
-            übernommen.
+            Es fällt also in Ihre Verantwortung, aus den dargestellten 
+            Informationen eine spezifische Gefährdungslage einzuschätzen und Schlüsse 
+            für die Durchführbarkeit oder Wirtschaftlichkeit von Maßnahmen zu treffen.
           </p>
         </div>
       }

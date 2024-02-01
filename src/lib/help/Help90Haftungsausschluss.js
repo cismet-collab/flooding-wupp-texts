@@ -34,7 +34,7 @@ const Component = ({ appName }) => {
           <p>
             Es fällt also in Ihre Verantwortung, aus den dargestellten 
             Informationen eine spezifische Gefährdungslage einzuschätzen und Schlüsse 
-            für die Durchführbarkeit oder Wirtschaftlichkeit von Maßnahmen zu treffen.
+            für die Durchführbarkeit oder Wirtschaftlichkeit von Maßnahmen zu ziehen.
           </p>
         </div>
       }

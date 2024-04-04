@@ -24,7 +24,7 @@ const Component = () => {
                 href="https://topicmaps-wuppertal.github.io/starkregen/#/hoehen?lat=51.271680556266894&lng=7.199681997299195&zoom=18"
               >
                 Starkregengefahrenkarte
-            </a>{" "}, 
+            </a>, 
             mit deren Hilfe alle Nutzer/innen die Gefahr 
             einer Überflutung ihrer Grundstücke durch Regenwasser einschätzen 
             können, das im Verlauf von Starkregenereignissen auf der Erdoberfläche 
@@ -49,7 +49,7 @@ const Component = () => {
             ein vollständiges Bild der Überflutungsgefährdung vermittelt werden. 
             Die AG "Gefahrenkarte", eine Unterarbeitsgruppe der vom Wuppertaler 
             Oberbürgermeister nach dem Hochwasser vom Juli 2021 eingerichteten 
-            Taskforce "Hochwasser" hat daher beschlossen, die Hochwassersimulationen 
+            Taskforce "Hochwasser", hat daher beschlossen, die Hochwassersimulationen 
             des Landes NRW für das Stadtgebiet von Wuppertal in einer 
             Hochwassergefahrenkarte zugänglich zu machen, die sich in Aussehen und 
             Bedienung  an der Starkregengefahrenkarte orientiert. Außerdem sollte 
@@ -65,7 +65,7 @@ const Component = () => {
               className="renderAsLink" 
               onClick={() => setAppMenuActiveMenuSection("szenarien")}>
               Hochwasser-Szenarien
-            </a>. 
+            </a>
             auftreten. Dazu wird ein Raster mit einer 
             Kantenlänge von 1 m benutzt. Die Wassertiefen werden mit demselben 
             Farbverlauf wie in der Starkregengefahrenkarte visualisiert, also 

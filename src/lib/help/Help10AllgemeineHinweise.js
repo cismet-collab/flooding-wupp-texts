@@ -60,8 +60,13 @@ const Component = () => {
           </p>
           <p>
             Die Hochwassergefahrenkarte Wuppertal stellt die Maximalwerte von 
-            Wassertiefen dar, die im Verlauf der drei vom Land NRW simulierten 
-            Hochwasser-Szenarien auftreten. Dazu wird ein Raster mit einer 
+            Wassertiefen dar, die im Verlauf der drei vom Land NRW simulierten {" "}
+            <a 
+              className="renderAsLink" 
+              onClick={() => setAppMenuActiveMenuSection("szenarien")}>
+              Hochwasser-Szenarien
+            </a>. 
+            auftreten. Dazu wird ein Raster mit einer 
             Kantenlänge von 1 m benutzt. Die Wassertiefen werden mit demselben 
             Farbverlauf wie in der Starkregengefahrenkarte visualisiert, also 
             mit den Eckwerten 20 cm (blau), 40 cm (gelb), 75 cm (orange) und 

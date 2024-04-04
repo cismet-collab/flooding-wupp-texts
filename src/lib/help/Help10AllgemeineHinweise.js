@@ -59,10 +59,14 @@ const Component = () => {
             unterstützt werden.  
           </p>
           <p>
-            Der Farbverlauf für die <strong>Wassertiefen</strong> nutzt die
-            Eckwerte 20 cm (blau), 40 cm (gelb), 75 cm (orange) und {">"} 100 cm
-            (rot). Wassertiefen unter 5 cm werden nicht mehr farbig ausgeprägt
-            (transparente Darstellung).
+            Die Hochwassergefahrenkarte Wuppertal stellt die Maximalwerte von 
+            Wassertiefen dar, die im Verlauf der drei vom Land NRW simulierten 
+            Hochwasser-Szenarien auftreten. Dazu wird ein Raster mit einer 
+            Kantenlänge von 1 m benutzt. Die Wassertiefen werden mit demselben 
+            Farbverlauf wie in der Starkregengefahrenkarte visualisiert, also 
+            mit den Eckwerten 20 cm (blau), 40 cm (gelb), 75 cm (orange) und 
+            100 cm (rot). Wassertiefen unter 10 cm werden nicht farbig ausgeprägt 
+            (transparente Darstellung). 
           </p>
         </div>
       }

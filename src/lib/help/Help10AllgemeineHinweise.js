@@ -65,7 +65,7 @@ const Component = () => {
               className="renderAsLink" 
               onClick={() => setAppMenuActiveMenuSection("szenarien")}>
               Hochwasser-Szenarien
-            </a>
+            </a>{" "}
             auftreten. Dazu wird ein Raster mit einer 
             Kantenlänge von 1 m benutzt. Die Wassertiefen werden mit demselben 
             Farbverlauf wie in der Starkregengefahrenkarte visualisiert, also 

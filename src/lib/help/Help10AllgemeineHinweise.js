@@ -17,8 +17,15 @@ const Component = () => {
       sectionContent={
         <div>
           <p>
-            Die Stadt Wuppertal publiziert seit Ende 2018 eine interaktive 
-            Starkregengefahrenkarte, mit deren Hilfe alle Nutzer/innen die Gefahr 
+            Die Stadt Wuppertal publiziert seit Ende 2018 eine interaktive
+            {" "} 
+            <a
+                target="_legal"
+                href="https://topicmaps-wuppertal.github.io/starkregen/#/hoehen?lat=51.271680556266894&lng=7.199681997299195&zoom=18"
+              >
+                Starkregengefahrenkarte
+            </a>{" "}, 
+            mit deren Hilfe alle Nutzer/innen die Gefahr 
             einer Überflutung ihrer Grundstücke durch Regenwasser einschätzen 
             können, das im Verlauf von Starkregenereignissen auf der Erdoberfläche 
             abfließt. Als Datengrundlage verwendet die Starkregengefahrenkarte die 

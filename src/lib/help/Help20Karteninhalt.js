@@ -48,7 +48,7 @@ const Component = () => {
             Wuppertal hat das Land NRW als einzige solche Schutzeinrichtung die 
             Verwallung zwischen der Wupper und dem Klärwerk Buchenhofen 
             berücksichtigt. Sie wird in dieser Variante als gelbgrüne Fläche 
-            angezeigt. ({" "}
+            angezeigt. (
             <a 
               className="renderAsLink" 
               onClick={() => setAppMenuActiveMenuSection("positionieren")}>

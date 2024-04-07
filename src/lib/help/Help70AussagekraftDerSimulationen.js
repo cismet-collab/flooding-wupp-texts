@@ -44,7 +44,27 @@ const Component = () => {
             berücksichtigt werden. Hierdurch sind im Detail umplausible 
             Überflutungsdarstellungen möglich.              
           </p>
-          <p>ABfluss auf DGM</p>
+          <p>
+            Ein wichtiger Unterschied zwischen der Starkregengefahrenkarte und der 
+            Hochwassergefahrenkarte betrifft die Berücksichtigung der Gebäude. Für den 
+            Starkregenabfluss sind die künstlichen vertikalen Strukturen wie Gebäude 
+            etc. entscheidend, sie werden daher bei den Simulationsberechnungen für 
+            die Starkregengefahrenkarte detailliert berücksichtigt. Bei den 
+            Hochwassersimulationen des Landes NRW wird die Wasserausbreitung 
+            dagegen auf dem DGM, also der Geländeoberfläche ohne Gebäude, 
+            berechnet. Wenn in unserer Hochwassergefahrenkarte auf einem Gebäude 
+            eine Wassertiefe dargestellt wird, bedeutet dies also nicht, dass das 
+            Gebäude vollständig mit der angegebenen Wassertiefe überflutet wird. 
+            Es handelt sich vielmehr um die Wassertiefe, die sich einstellen würde, 
+            wenn an diesem Ort kein Gebäude stehen würde. Um zu einer relevanten 
+            Aussage für die Hochwassergefährdung eines Gebäudes zu kommen, muss man 
+            an den einzelnen Außenseiten des Gebäudes die{" "}
+            <a 
+              className="renderAsLink" 
+              onClick={() => setAppMenuActiveMenuSection("wasserstand")}>
+              Wassertiefen abfragen
+            </a>.   
+          </p>
         </div>
       }
     />

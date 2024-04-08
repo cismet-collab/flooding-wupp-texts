@@ -9,40 +9,55 @@ import customerLogo from "./assets/customerLogo.png";
 const Component = ({ email }) => {
   return (
     <GenericModalMenuSection
-      sectionKey="kontakt"
-      sectionTitle="Kontakt"
+      sectionKey="zwilling"
+      sectionTitle="Urbaner Digitaler Zwilling"
       sectionBsStyle="warning"
       sectionContent={
         <div>
           <p>
-            Für telefonische Auskünfte zum Umgang mit der TopciMap Hochwasser
-            stehen Ihnen die Mitarbeiterinnen und Mitarbeiter der
-            Stadtverwaltung Wuppertal zur Verfügung.
+            Die Hochwassergefahrenkarte basiert auf dem <b>DigiTal Zwilling</b>, 
+            dem{" "}  
+            <a href="https://smart.wuppertal.de/projekte/digital-zwilling/digitaler-zwilling.php" title={""}>
+              Urbanen Digitalen Zwilling der Stadt Wuppertal
+            </a>. Sie stellt 
+            einen themenspezifischen Ausschnitt aus den Daten und Methoden des 
+            DigiTal Zwillings für den ebenfalls spezifischen Anwendungsfall 
+            "Hochwasser-Gefährdungsbeurteilung" bereit. Im Konzept des 
+            DigiTal Zwillings implementiert die Hochwassergefahrenkarte einen 
+            {" "}<b>Teilzwilling</b>, der dem <b>Fachzwilling Klimawandel</b> zuzuordnen 
+            ist.
           </p>
           <p>
-            Weitere Informationen zum Thema „Schutz vor Hochwasser finden Sie
-            auf der Homepage der Stadt Wuppertal.
+            Der Aufbau des DigiTal Zwillings ist eines der drei großen Umsetzungsprojekte 
+            aus der bis Ende 2026 laufenden Phase B des Wuppertaler Smart-City-Projekts 
+            {" "}  
+            <a href="https://smart.wuppertal.de/strategie/strategieprozess.php" title={""}>
+              smart.wuppertal
+            </a>. Das Projekt wird im Rahmen der dritten Session des Förderprogramms 
+            {" "}  
+            <a href="https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/staedtebau/smart-cities/smart-cities-node.html" title={""}>
+              Smart Cities made in Germany
+            </a>{" "}vom Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen gefördert. Als Projektträger fungiert die 
+            Kreditanstalt für Wiederaufbau KfW. 
           </p>
 
           <p style={{ display: "flex" }}>
             <div>
-              Stadt
-              <br />
-              Abteilung
-              <br />
-              Straße
-              <br />
-              PLZ Stadt
-              <br />
-              Telefon: 0000 000000
-              <br />
-              E-Mail: <a href="mailto:{email)}">{email}</a>
-              <br />
+              Die Hochwassergefahrenkarte basiert auf dem <b>DigiTal Zwilling</b>, 
+              dem{" "}  
+              <a href="https://smart.wuppertal.de/projekte/digital-zwilling/digitaler-zwilling.php" title={""}>
+                Urbanen Digitalen Zwilling der Stadt Wuppertal
+              </a>. Sie stellt einen themenspezifischen Ausschnitt aus den Daten und 
+              Methoden des DigiTal Zwillings für den ebenfalls spezifischen Anwendungsfall 
+              "Hochwasser-Gefährdungsbeurteilung" bereit. Im Konzept des 
+              DigiTal Zwillings implementiert die Hochwassergefahrenkarte einen 
+              {" "}<b>Teilzwilling</b>, der dem <b>Fachzwilling Klimawandel</b> zuzuordnen 
+              ist.
             </div>
             <img
               style={{ marginBottom: 10, marginLeft: 20 }}
-              target="_contacts"
-              alt="Logo Auftraggeber"
+              target="_zwilling"
+              alt="Logo DigiTal Zwilling"
               height="150"
               src={customerLogo}
             />
@@ -61,7 +76,7 @@ const Component = ({ email }) => {
               <tr>
                 <td style={{ textAlign: "left", paddingBottom: 20 }}>
                   <img
-                    target="_contacts"
+                    target="_zwilling"
                     alt="Logo Pecher AG"
                     height="40"
                     src={pecherLogo}

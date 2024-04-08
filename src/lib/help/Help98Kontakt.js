@@ -28,12 +28,12 @@ const Component = ({ email }) => {
               style={{ marginBottom: 10, marginLeft: 20 }}
               target="_zwilling"
               alt="Logo DigiTal Zwilling"
-              height="180"
+              height="120"
               src={Logo_DigiTalZwilling}
             />
           </p>
           <p>Im Konzept des DigiTal Zwillings implementiert die Hochwassergefahrenkarte 
-            einen {" "}<b>Teilzwilling</b>, der dem <b>Fachzwilling Klimawandel</b> 
+            einen {" "}<b>Teilzwilling</b>, der dem <b>Fachzwilling Klimawandel</b>{" "}  
             zuzuordnen ist.
           </p>
           <p>

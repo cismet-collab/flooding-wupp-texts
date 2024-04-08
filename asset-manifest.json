@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "./static/css/main.a0f0a568.css",
-    "main.js": "./static/js/main.c71abdcf.js",
+    "main.js": "./static/js/main.2741c24b.js",
     "static/js/787.211b466b.chunk.js": "./static/js/787.211b466b.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "./static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/markers_default@2x.png": "./static/media/markers_default@2x.9593b3c72f31a3f4b403.png",
-    "static/media/customerLogo.png": "./static/media/customerLogo.ad12a5f6199d1afa5f30.png",
+    "static/media/Logo_DigiTalZwilling.png": "./static/media/Logo_DigiTalZwilling.adb8e89fbaa01801230c.png",
     "static/media/Signet_AIS_RZ.png": "./static/media/Signet_AIS_RZ.4f7add7d825ac1166c5a.png",
     "static/media/fontawesome-webfont.eot": "./static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "./static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -20,11 +20,11 @@
     "index.html": "./index.html",
     "static/media/location-arrow-solid.svg": "./static/media/location-arrow-solid.0b7c9a27de87a0ec7420.svg",
     "main.a0f0a568.css.map": "./static/css/main.a0f0a568.css.map",
-    "main.c71abdcf.js.map": "./static/js/main.c71abdcf.js.map",
+    "main.2741c24b.js.map": "./static/js/main.2741c24b.js.map",
     "787.211b466b.chunk.js.map": "./static/js/787.211b466b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0f0a568.css",
-    "static/js/main.c71abdcf.js"
+    "static/js/main.2741c24b.js"
   ]
 }

@@ -3,7 +3,7 @@ import GenericModalMenuSection from "react-cismap/topicmaps/menu/Section";
 import cismetLogo from "./assets/cismetSignet2k.png";
 import pecherLogo from "./assets/pecher.png";
 import klasLogo from "./assets/Signet_AIS_RZ.png";
-import customerLogo from "./assets/customerLogo.png";
+import Logo_DigiTalZwilling from "./assets/Logo_DigiTalZwilling.png";
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 const Component = ({ email }) => {
@@ -14,18 +14,27 @@ const Component = ({ email }) => {
       sectionBsStyle="warning"
       sectionContent={
         <div>
-          <p>
-            Die Hochwassergefahrenkarte basiert auf dem <b>DigiTal Zwilling</b>, 
-            dem{" "}  
-            <a href="https://smart.wuppertal.de/projekte/digital-zwilling/digitaler-zwilling.php" title={""}>
-              Urbanen Digitalen Zwilling der Stadt Wuppertal
-            </a>. Sie stellt 
-            einen themenspezifischen Ausschnitt aus den Daten und Methoden des 
-            DigiTal Zwillings für den ebenfalls spezifischen Anwendungsfall 
-            "Hochwasser-Gefährdungsbeurteilung" bereit. Im Konzept des 
-            DigiTal Zwillings implementiert die Hochwassergefahrenkarte einen 
-            {" "}<b>Teilzwilling</b>, der dem <b>Fachzwilling Klimawandel</b> zuzuordnen 
-            ist.
+          <p style={{ display: "flex" }}>
+            <div>
+              Die Hochwassergefahrenkarte basiert auf dem <b>DigiTal Zwilling</b>, 
+              dem{" "}  
+              <a href="https://smart.wuppertal.de/projekte/digital-zwilling/digitaler-zwilling.php" title={""}>
+                Urbanen Digitalen Zwilling der Stadt Wuppertal
+              </a>. Sie stellt einen themenspezifischen Ausschnitt aus den Daten und 
+              Methoden des DigiTal Zwillings für den ebenfalls spezifischen Anwendungsfall 
+              "Hochwasser-Gefährdungsbeurteilung" bereit. 
+            </div>
+            <img
+              style={{ marginBottom: 10, marginLeft: 20 }}
+              target="_zwilling"
+              alt="Logo DigiTal Zwilling"
+              height="180"
+              src={Logo_DigiTalZwilling}
+            />
+          </p>
+          <p>Im Konzept des DigiTal Zwillings implementiert die Hochwassergefahrenkarte 
+            einen {" "}<b>Teilzwilling</b>, der dem <b>Fachzwilling Klimawandel</b> 
+            zuzuordnen ist.
           </p>
           <p>
             Der Aufbau des DigiTal Zwillings ist eines der drei großen Umsetzungsprojekte 
@@ -39,28 +48,6 @@ const Component = ({ email }) => {
               Smart Cities made in Germany
             </a>{" "}vom Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen gefördert. Als Projektträger fungiert die 
             Kreditanstalt für Wiederaufbau KfW. 
-          </p>
-
-          <p style={{ display: "flex" }}>
-            <div>
-              Die Hochwassergefahrenkarte basiert auf dem <b>DigiTal Zwilling</b>, 
-              dem{" "}  
-              <a href="https://smart.wuppertal.de/projekte/digital-zwilling/digitaler-zwilling.php" title={""}>
-                Urbanen Digitalen Zwilling der Stadt Wuppertal
-              </a>. Sie stellt einen themenspezifischen Ausschnitt aus den Daten und 
-              Methoden des DigiTal Zwillings für den ebenfalls spezifischen Anwendungsfall 
-              "Hochwasser-Gefährdungsbeurteilung" bereit. Im Konzept des 
-              DigiTal Zwillings implementiert die Hochwassergefahrenkarte einen 
-              {" "}<b>Teilzwilling</b>, der dem <b>Fachzwilling Klimawandel</b> zuzuordnen 
-              ist.
-            </div>
-            <img
-              style={{ marginBottom: 10, marginLeft: 20 }}
-              target="_zwilling"
-              alt="Logo DigiTal Zwilling"
-              height="150"
-              src={customerLogo}
-            />
           </p>
 
           <table width="100%" style={{ marginTop: 50 }}>

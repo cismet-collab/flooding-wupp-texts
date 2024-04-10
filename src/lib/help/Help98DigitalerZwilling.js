@@ -2,7 +2,7 @@ import React from "react";
 import GenericModalMenuSection from "react-cismap/topicmaps/menu/Section";
 import Logo_DigiTalZwilling from "./assets/Logo_DigiTalZwilling.png";
 import KFW_Logo from "./assets/KFW_Logo.jpg";
-import BMWSB_Logo from "./assets/BMWSB_Logo.svg";
+import BMWSB_Logo from "./assets/BMWSB_Logo.png";
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 const Component = ({ email }) => {
@@ -49,24 +49,28 @@ const Component = ({ email }) => {
             Kreditanstalt für Wiederaufbau KfW. 
           </p>
 
-          <table width="100%" style={{ marginTop: 50 }}>
+          <table width="100%" style={{ marginTop: 10 }}>
             <tbody>
               <tr>
-                <td style={{ textAlign: "left", paddingBottom: 20 }}>
+                <td style={{ textAlign: "left", paddingBottom: 10 }}>
+                <a href="https://www.bmwsb.bund.de/Webs/BMWSB/DE/startseite/startseite-node.html" title={""}>
                   <img
                     target="_zwilling"
                     alt="Logo BMWSB"
-                    height="40"
+                    height="120"
                     src={BMWSB_Logo}
                   />
+                </a>
                 </td>
-                <td style={{ textAlign: "left", paddingBottom: 20 }}>
+                <td style={{ textAlign: "left", paddingBottom: 10 }}>
+                <a href="https://www.kfw.de/kfw.de.html" title={""}>
                   <img
                     target="_zwilling"
                     alt="Logo KFW"
-                    height="40"
+                    height="120"
                     src={KFW_Logo}
                   />
+                </a>
                 </td>
               </tr>
             </tbody>

@@ -1,9 +1,8 @@
 import React from "react";
 import GenericModalMenuSection from "react-cismap/topicmaps/menu/Section";
-import cismetLogo from "./assets/cismetSignet2k.png";
-import pecherLogo from "./assets/pecher.png";
-import klasLogo from "./assets/Signet_AIS_RZ.png";
 import Logo_DigiTalZwilling from "./assets/Logo_DigiTalZwilling.png";
+import KFW_Logo from "./assets/KFW_Logo.jpg";
+import BMWSB_Logo from "./assets/BMWSB_Logo.svg";
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 const Component = ({ email }) => {
@@ -56,17 +55,17 @@ const Component = ({ email }) => {
                 <td style={{ textAlign: "left", paddingBottom: 20 }}>
                   <img
                     target="_zwilling"
-                    alt="Logo Pecher AG"
+                    alt="Logo BMWSB"
                     height="40"
-                    src={pecherLogo}
+                    src={BMWSB_Logo}
                   />
                 </td>
                 <td style={{ textAlign: "left", paddingBottom: 20 }}>
                   <img
                     target="_zwilling"
-                    alt="Logo cismet GmbH"
+                    alt="Logo KFW"
                     height="40"
-                    src={cismetLogo}
+                    src={KFW_Logo}
                   />
                 </td>
               </tr>

@@ -53,28 +53,34 @@ const Component = ({ email }) => {
             <tbody>
               <tr>
                 <td style={{ textAlign: "left", paddingBottom: 10 }}>
-                <a href="https://www.bmwsb.bund.de/Webs/BMWSB/DE/startseite/startseite-node.html" title={""}>
-                  <img
-                    target="_zwilling"
-                    alt="Logo BMWSB"
-                    height="120"
-                    src={BMWSB_Logo}
-                  />
-                </a>
+                  <a href="https://www.bmwsb.bund.de/Webs/BMWSB/DE/startseite/startseite-node.html" title={""}>
+                    <img
+                      target="_zwilling"
+                      alt="Logo BMWSB"
+                      height="120"
+                      src={BMWSB_Logo}
+                    />
+                  </a>
                 </td>
                 <td style={{ textAlign: "left", paddingBottom: 10 }}>
-                <a href="https://www.kfw.de/kfw.de.html" title={""}>
-                  <img
-                    target="_zwilling"
-                    alt="Logo KFW"
-                    height="120"
-                    src={KFW_Logo}
-                  />
-                </a>
+                  <a href="https://www.kfw.de/kfw.de.html" title={""}>
+                    <img
+                      target="_zwilling"
+                      alt="Logo KFW"
+                      height="120"
+                      src={KFW_Logo}
+                    />
+                  </a>
                 </td>
               </tr>
             </tbody>
           </table>
+          <p>
+            Fachspezifische Fragen, Hinweise und Anregungen zur Hochwassergefahrenkarte 
+            richten Sie bitte an die E-Mail-Adresse {" "} 
+            <a href="mailto:starkregen@stadt.wuppertal.de">starkregen@stadt.wuppertal.de</a> {" "} 
+            mit dem Betreff <b>Hochwassergefahrenkarte Wuppertal</b>. 
+          </p>
         </div>
       }
     />

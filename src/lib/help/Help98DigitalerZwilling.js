@@ -54,14 +54,6 @@ const Component = ({ email }) => {
             <tbody>
               <tr>
                 <td style={{ textAlign: "left", paddingBottom: 20 }}>
-                  <strong>Bearbeitung des Hochwasserrisikomanagement</strong>
-                </td>
-                <td style={{ textAlign: "left", paddingBottom: 20 }}>
-                  <strong>Aufbau und Bereitstellung TopicMap Hochwasser</strong>
-                </td>
-              </tr>
-              <tr>
-                <td style={{ textAlign: "left", paddingBottom: 20 }}>
                   <img
                     target="_zwilling"
                     alt="Logo Pecher AG"
@@ -71,37 +63,11 @@ const Component = ({ email }) => {
                 </td>
                 <td style={{ textAlign: "left", paddingBottom: 20 }}>
                   <img
-                    target="_contacts"
+                    target="_zwilling"
                     alt="Logo cismet GmbH"
                     height="40"
                     src={cismetLogo}
                   />
-                </td>
-              </tr>
-              <tr>
-                <td style={{ verticalAlign: "bottom" }}>
-                  Dr. Pecher AG
-                  <br />
-                  Klinkerweg 5<br />
-                  40699 Erkrath
-                  <br />
-                  Telefon: 02104 93 96-0
-                  <br />
-                  E-Mail:{" "}
-                  <a href="mailto:mail.erkrath@pecher.de">
-                    mail.erkrath@pecher.de
-                  </a>
-                </td>
-                <td style={{ verticalAlign: "bottom" }}>
-                  cismet GmbH
-                  <br />
-                  <br />
-                  Tholey ▪️ Saarbrücken <br />
-                  Telefon: 0681 965 901-20
-                  <br />
-                  <a href="https://cismet.de/" title={"and it just works"}>
-                    https://cismet.de/
-                  </a>
                 </td>
               </tr>
             </tbody>

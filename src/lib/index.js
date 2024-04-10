@@ -18,7 +18,7 @@ import Help60SimulierteSzenarien from "./help/Help60SimulierteSzenarien";
 import Help70AussagekraftDerSimulationen from "./help/Help70AussagekraftDerSimulationen";
 import Help80ModellfehlerMelden from "./help/Help80ModellfehlerMelden";
 import Help90Haftungsausschluss from "./help/Help90Haftungsausschluss";
-import Help98Kontakt from "./help/Help98Kontakt";
+import Help98DigitalerZwilling from "./help/Help98DigitalerZwilling";
 
 const getCollabedHelpComponentConfig = ({
   version,
@@ -41,7 +41,7 @@ const getCollabedHelpComponentConfig = ({
     <Help70AussagekraftDerSimulationen key="AussagekraftDerSimulationen" />,
     <Help80ModellfehlerMelden key="ModellfehlerMelden" email={email} />,
     <Help90Haftungsausschluss key="Haftungsausschluss" />,
-    <Help98Kontakt key="Kontakt" email={email} />,
+    <Help98DigitalerZwilling key="zwilling" email={email} />,
   ];
   const menuFooter = (
     <Help99Footer

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import {
   Help05Introduction,
   //   Help20Karteninhalt,
@@ -19,13 +19,50 @@ import Help70AussagekraftDerSimulationen from "./help/Help70AussagekraftDerSimul
 import Help80ModellfehlerMelden from "./help/Help80ModellfehlerMelden";
 import Help90Haftungsausschluss from "./help/Help90Haftungsausschluss";
 import Help98DigitalerZwilling from "./help/Help98DigitalerZwilling";
-
+import DigiTalLogo from "./help/assets/Logo_DigiTalZwilling.png";
+import { UIDispatchContext } from "react-cismap/contexts/UIContextProvider";
 const getCollabedHelpComponentConfig = ({
   version,
   reactCismapRHMVersion,
-  footerLogoUrl,
+  footerLogoUrl = DigiTalLogo,
   email,
 }) => {
+  const MyFooter = () => {
+    const { setAppMenuActiveMenuSection } = useContext(UIDispatchContext);
+    return (
+      <Help99Footer
+        appName="TopicMap Hochwasser Wuppertal"
+        taglineModelling={
+          <div>
+            <b>Modellierung</b> (14.10.2021):{" "}
+            <a
+              target="_wsw"
+              href="https://www.gis-rest.nrw.de/atomFeed/rest/atom/182925c1-879f-4054-bd69-b6f28e05b270.html"
+            >
+              Land NRW
+            </a>
+          </div>
+        }
+        version={version}
+        reactCismapRHMVersion={reactCismapRHMVersion}
+        logo={
+          <a
+            className="renderAsLink"
+            onClick={() => {
+              setAppMenuActiveMenuSection("zwilling");
+            }}
+          >
+            <img
+              style={{ width: 50, margin: 5, cursor: "pointer" }}
+              align="right"
+              src={footerLogoUrl}
+            />
+          </a>
+        }
+      />
+    );
+  };
+
   const menuIntroduction = <Help05Introduction />;
   const menuIcon = "info";
   const menuTitle = "Kompaktanleitung und Hintergrundinformationen";
@@ -43,31 +80,13 @@ const getCollabedHelpComponentConfig = ({
     <Help90Haftungsausschluss key="Haftungsausschluss" />,
     <Help98DigitalerZwilling key="zwilling" email={email} />,
   ];
-  const menuFooter = (
-    <Help99Footer
-      appName="TopicMap Hochwasser Wuppertal"
-      taglineModelling={
-        <div>
-          <b>Modellierung</b> (14.10.2021):{" "}
-          <a
-            target="_wsw"
-            href="https://www.gis-rest.nrw.de/atomFeed/rest/atom/182925c1-879f-4054-bd69-b6f28e05b270.html"
-          >
-            Land NRW
-          </a>
-        </div>
-      }
-      version={version}
-      reactCismapRHMVersion={reactCismapRHMVersion}
-      logoUrl={footerLogoUrl}
-    />
-  );
+
   return {
     menuIntroduction,
     menuIcon,
     menuTitle,
     menuSections,
-    menuFooter,
+    menuFooter: <MyFooter />,
   };
 };
 

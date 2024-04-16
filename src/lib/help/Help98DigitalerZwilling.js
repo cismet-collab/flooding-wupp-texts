@@ -21,19 +21,17 @@ const Component = ({ email }) => {
                 Urbanen Digitalen Zwilling der Stadt Wuppertal
               </a>. Sie stellt einen themenspezifischen Ausschnitt aus den Daten und 
               Methoden des DigiTal Zwillings für den ebenfalls spezifischen Anwendungsfall 
-              "Hochwasser-Gefährdungsbeurteilung" bereit. 
+              "Hochwasser-Gefährdungsbeurteilung" bereit. Im Konzept des DigiTal Zwillings implementiert die 
+              Hochwassergefahrenkarte einen {" "}<b>Teilzwilling</b>, der dem <b>Fachzwilling Klimawandel</b>{" "}  
+              zuzuordnen ist. 
             </div>
             <img
-              style={{ marginBottom: 10, marginLeft: 20 }}
+              style={{ marginBottom: 0, marginLeft: 20 }}
               target="_zwilling"
               alt="Logo DigiTal Zwilling"
               height="120"
               src={Logo_DigiTalZwilling}
-            />
-          </p>
-          <p>Im Konzept des DigiTal Zwillings implementiert die Hochwassergefahrenkarte 
-            einen {" "}<b>Teilzwilling</b>, der dem <b>Fachzwilling Klimawandel</b>{" "}  
-            zuzuordnen ist.
+            />            
           </p>
           <p>
             Der Aufbau des DigiTal Zwillings ist eines der drei großen Umsetzungsprojekte 

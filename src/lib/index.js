@@ -31,16 +31,16 @@ const getCollabedHelpComponentConfig = ({
     const { setAppMenuActiveMenuSection } = useContext(UIDispatchContext);
     return (
       <Help99Footer
-        appName="TopicMap Hochwasser Wuppertal"
+        appName="TopicMap Hochwassergefahrenkarte Wuppertal"
         taglineModelling={
           <div>
-            <b>Modellierung</b> (14.10.2021):{" "}
+            <b>Modellierung</b>:{" "}
             <a
               target="_wsw"
               href="https://www.gis-rest.nrw.de/atomFeed/rest/atom/182925c1-879f-4054-bd69-b6f28e05b270.html"
             >
               Land NRW
-            </a>
+            </a>{" "}(2. Umsetzungszyklus der EU-HWRM-RL 12/2019)
           </div>
         }
         version={version}

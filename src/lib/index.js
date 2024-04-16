@@ -53,7 +53,7 @@ const getCollabedHelpComponentConfig = ({
             }}
           >
             <img
-              style={{ width: 50, margin: 5, cursor: "pointer" }}
+              style={{ width: 50, margin: 5, marginTop: -5, cursor: "pointer" }}
               align="right"
               src={footerLogoUrl}
             />

@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import Icon from "react-cismap/commons/Icon";
+import { UIDispatchContext } from "react-cismap/contexts/UIContextProvider";
 import GenericModalMenuSection from "react-cismap/topicmaps/menu/Section";
 
 const Component = () => {
+  const { setAppMenuActiveMenuSection } = useContext(UIDispatchContext);
+
   return (
     <GenericModalMenuSection
       sectionKey="koppelung"
@@ -53,3 +56,7 @@ const Component = () => {
   );
 };
 export default Component;
+Component.defaultProps = {
+  showModalMenu: () => {},
+};
+

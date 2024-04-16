@@ -42,13 +42,17 @@ const Component = () => {
             Browserfenster beschränkt. Sie können beliebig viele weitere 
             Anwendungsfenster öffnen, die alle standardmäßig synchronisiert werden. 
             Damit können Sie z. B. auch unterschiedliche Hochwasser-Szenarien aus 
-            er Hochwassergefahrenkarte gut miteinander vergleichen.
+            der Hochwassergefahrenkarte gut miteinander vergleichen.
           </p>
           <p>
             Mit dem Wechselschalter "Synchronisation stoppen / Synchronisation 
             starten" (das unterste Werkzeug in der Werkzeugleiste links oben) 
-            können Sie einzelne Anwendungsfenster aus der Gruppe der 
-            synchronisierten Kartenanwendungen herausnehmen und wieder hinzufügen.
+            können Sie einzelne Anwendungsfenster aus der Gruppe der synchronisierten 
+            Kartenanwendungen herausnehmen und wieder hinzufügen. Bei deaktivierter 
+            Synchronisation wird das Symbol auf dem Werkzeug ausgegraut dargestellt. 
+            Wenn Sie den Mauszeiger auf dieses Werkzeug bewegen, werden das angezeigte 
+            Symbol und der zugehörige Tooltipp so verändert, dass Sie eine Vorschau 
+            darauf erhalten, was das Anklicken des Werkzeugs bewirkt.
           </p>
         </div>
       }

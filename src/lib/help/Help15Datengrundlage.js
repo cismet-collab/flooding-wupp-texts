@@ -43,9 +43,9 @@ const Component = () => {
             Morsbach, Hardenberger Bach, Deilbach).
           </p>
           <p>
-            Zur Betrachtung der Ergebnisse stehen drei verschiedene
-            Hintergrundkarten zur Verfügung, die auf den folgenden
-            Geodatendiensten und Geodaten basieren:
+            Zur Betrachtung der Wassertiefen stellen wir Ihnen drei verschiedene 
+            Hintergrundkarten bereit, die auf den folgenden Geodatendiensten und 
+            Geodaten basieren:
           </p>
           <ul>
             <li>

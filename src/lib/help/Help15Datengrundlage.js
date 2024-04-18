@@ -16,64 +16,32 @@ const Component = () => {
       sectionBsStyle="warning"
       sectionContent={
         <div>
-          Platzhaltertext !!!
           <p>
-            Die Modellgrundlagen und -annahmen beeinflussen die Ergebnisse
-            maßgeblich. Die hierausresultierende{" "}
+            Die Hochwassergefahrenkarte Wuppertal basiert auf den{" "}
+            <a 
+              className="renderAsLink" 
+              onClick={() => setAppMenuActiveMenuSection("szenarien")}>
+              Hochwassersimulationen
+            </a>,{" "} 
+            die das Land NRW nach den Vorgaben der 
+            EU-Hochwasserrisikomanagement-Richtlinie (EU-HWRM-RL) in einem 
+            Turnus von sechs Jahren für die Risikogewässer des Landes 
+            berechnet. Derzeit sind die im Dezember 2019 vorgelegten 
+            Ergebnisse des zweiten Umsetzungszyklus der EU-HWRM-RL verfügbar. 
+            Sie wurden vom Land NRW als Open Data unter der Lizenz 
+            "Datenlizenz Deutschland – Zero – Version 2.0" publiziert 
+            und sind z. B. über einen {" "} 
             <a
-              className="renderAsLink"
-              onClick={() => setAppMenuActiveMenuSection("aussagekraft")}
+              target="_blank"
+              href="https://www.gis-rest.nrw.de/atomFeed/rest/atom/182925c1-879f-4054-bd69-b6f28e05b270.html"
             >
-              Aussagekraft der Simulationen
+              ATOM-Feed-Downloadservice
             </a>{" "}
-            wird gesondert beschrieben.
+            zu beziehen. Die Hochwassergefahrenkarte Wuppertal verwendet 
+            nur die Simulationsergebnisse für die Risikogewässer, die durch 
+            das Wuppertaler Stadtgebiet verlaufen (Wupper, Schwelme, Mirker Bach, 
+            Morsbach, Hardenberger Bach, Deilbach).
           </p>
-          <p>
-            Die Simulationen wurden mit einem Oberflächenabflussmodell für das
-            hydrologische Einzugsgebiet mit einer Auflösung von 1x1 Meter
-            aufgebaut. Wesentliche Modellgrundlage ist das Digitale
-            Geländemodell (DGM1). Als Grundlage hierfür dienen flächenhafte
-            Höhenmessungen, die das Land NRW turnusmäßig mit einem Laserscanner
-            aus einem Flugzeug heraus durchführt (Aufnahme durch Laseraltimetrie
-            im Jahr 2021 und 2022). Für die Simulation wurde das DGM1 um die
-            Gebäude aus dem Liegenschaftskataster (10/2022) ergänzt. Außerhalb
-            des Gültigkeitsgebiets wurden Daten des Bundesamts für Kartographie
-            und Geodäsie verwendet (Bundesamt für Kartographie und Geodäsie, ©
-            GeoBasis-DE / BKG (2023)).
-          </p>
-          <p>
-            Das Oberflächenmodell wurde anschließend um wichtige verrohrte
-            Gewässerabschnitte sowie Geländedurchlässe ergänzt, um eine
-            hydrologisch korrekte Abflussberechnung zu gewährleisten. In diesem
-            Rahmen wurden auch weitere Fließhindernisse wie z. B. Mauern ergänzt
-            und maßgebliche siedlungswasserwirtschaftliche Bauwerke (Hochwasser-
-            und Regenrückhaltebecken) mit ihrer Wirkung im Oberflächenmodell
-            abgebildet. Zusätzlich wurden die Gebäude auf Aktualität geprüft und
-            abgerissene oder geplante Gebäude gegebenenfalls angepasst. Sehr
-            neue Gebäude, die nach dem Modellaufbau fertiggestellt wurden (z. B.
-            Neubaugebiete) sind daher noch nicht im Datenbestand erfasst. Hier
-            lassen sich aus dem angrenzenden Gelände dennoch wichtige Hinweise
-            zur möglichen Überflutung ableiten (s. auch Schaltfläche: Fehler im
-            Geländemodell melden).
-          </p>
-          <p>
-            Grundlage für die Modellanpassungen waren die kommunal verfügbaren
-            Datensätze, Ortsbegehungen im Kreisgebiet und eine Prüfung durch
-            kommunale Vertreter:innen. Auf Grundlage von Testrechnungen wurde
-            das Modell anschließend gemeinsam mit Vertreter:innen aus den
-            Kommunen geprüft und angepasst.
-          </p>
-          <p>Welche Daten wurden berücksichtigt?</p>
-          <ul>
-            <li>
-              Landesweite Daten / Bezirksregierung Köln: Digitales
-              Geländemodell, Digitales Lanschaftsmodell, ALKIS-Daten,
-              ELWAS-Daten (Datenlizenz Deutschland Zero
-              (https://www.govdata.de/dl-de/zero-2-0))
-            </li>
-
-            <li>...</li>
-          </ul>
           <p>
             Zur Betrachtung der Ergebnisse stehen drei verschiedene
             Hintergrundkarten zur Verfügung, die auf den folgenden

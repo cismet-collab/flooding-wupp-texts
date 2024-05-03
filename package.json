@@ -10,14 +10,8 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@cismet-collab/rainhazardmaps-base-texts": "^2.1.0",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^16.11",
-    "react-dom": "^16.11",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "@cismet-collab/rainhazardmaps-base-texts": "^3.0.0",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -50,13 +44,15 @@
     ]
   },
   "peerDependencies": {
-    "react-cismap": "^1.0.0"
+    "react-cismap": "^2.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.22.5",
     "@babel/core": "^7.22.5",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-react": "^7.22.5",
-    "react-cismap": "^1.17.8"
+    "react-cismap": "^2.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }

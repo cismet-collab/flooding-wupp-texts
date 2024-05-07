@@ -9722,7 +9722,7 @@ polygon-clipping@^0.15.3:
     robust-predicates "^3.0.2"
     splaytree "^3.1.0"
 
-"polylabel@github:mapbox/polylabel":
+polylabel@mapbox/polylabel:
   version "1.1.0"
   resolved "https://codeload.github.com/mapbox/polylabel/tar.gz/66b343f0bfe481aaf5fef007348788e872f4d6f5"
   dependencies:

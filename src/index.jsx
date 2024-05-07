@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+// import "./index.css";
 import App from "./App";
 
 import TopicMapContextProvider from "react-cismap/contexts/TopicMapContextProvider";

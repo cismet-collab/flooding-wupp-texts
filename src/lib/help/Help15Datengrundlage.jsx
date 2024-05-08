@@ -49,6 +49,27 @@ const Component = () => {
           </p>
           <ul>
             <li>
+              <strong>Topographische Karte</strong>: (1) Kartendienste (WMS) der 
+              Stadt Wuppertal. Datengrundlagen: (a) <b>Amtliche Basiskarte ABK 
+              Graustufen</b>. (Wöchentlich in einem automatisierten Prozess aus dem 
+              Fachverfahren ALKIS des Liegenschaftskatasters abgeleitete 
+              großmaßstäbige topographische Karte in Graustufen.) © Stadt Wuppertal 
+              (<a
+                target="_legal"
+                href="https://www.govdata.de/dl-de/zero-2-0"
+              >
+                Datenlizenz Deutschland - Zero - Version 2.0)
+              </a>.{" "}
+              (b) <b>Hillshade</b> (Schummerungsdarstellung eines für hydrologische 
+              Fragestellungen optimierten Digitalen Geländemodells aus 
+              Laserscanner-Befliegungen (12/2008 und 01/2009) mit ergänztem 
+              Gebäudebestand (Auflösung 25cm x 25cm), ausgeführt in 2012 vom 
+              Ingenieurbüro Reinhard Beck GmbH & Co. KG / Wuppertal.) © Wuppertaler 
+              Stadtwerke WSW Energie & Wasser AG. (2) Kartendienst (WMS) des 
+              Bundesamtes für Kartographie und Geodäsie (BKG). Datengrundlage: 
+              WebAtlasDE © GeoBasis-DE / BKG 2018
+            </li>
+            <li>
               <strong>Stadtplan (grau)</strong>: Kartendienst (vektorbasiert)
               der cismet GmbH. Datengrundlage: <strong>cismet light</strong>.
               Wöchentlich in einem automatischen Prozess aktualisierte

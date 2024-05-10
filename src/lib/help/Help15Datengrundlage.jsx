@@ -66,71 +66,53 @@ const Component = () => {
               Gebäudebestand (Auflösung 25cm x 25cm), ausgeführt in 2012 vom 
               Ingenieurbüro Reinhard Beck GmbH & Co. KG / Wuppertal.) © Wuppertaler 
               Stadtwerke WSW Energie & Wasser AG. (2) Kartendienst (WMS) des 
-              Bundesamtes für Kartographie und Geodäsie (BKG). Datengrundlage: 
-              WebAtlasDE © GeoBasis-DE / BKG 2018
+              Regionalverbandes Ruhr (RVR). Datengrundlage: <b>Stadtkarte 2.0</b>{" "} 
+              ohne Kartenschrift. (Details s. Hintergrundkarte Stadtplan.)
             </li>
             <li>
-              <strong>Stadtplan (grau)</strong>: Kartendienst (vektorbasiert)
-              der cismet GmbH. Datengrundlage: <strong>cismet light</strong>.
-              Wöchentlich in einem automatischen Prozess aktualisierte
-              Bereitstellung der OpenStreetMap als Vektorlayer mit der
-              OpenMapTiles-Server-Technologie. Lizenzen der Ausgangsprodukte:{" "}
+              <strong>Luftbildkarte</strong>: (1) Kartendienst (WMS) der Stadt Wuppertal. Datengrundlage:{" "} 
+              <b>True Orthophoto aus Bildflug vom 16.03.2022</b>, hergestellt durch Aerowest 
+              GmbH/Dortmund, Bodenauflösung 5 cm. (True Orthophoto: Aus Luftbildern 
+              mit hoher Längs- und Querüberdeckung in einem automatisierten 
+              Bildverarbeitungsprozess berechnetes Bild in Parallelprojektion, also 
+              ohne Gebäudeverkippung und sichttote Bereiche.) © Stadt Wuppertal 
+              ( 
               <a
-                target="_legal"
-                href="https://github.com/openmaptiles/openmaptiles/blob/master/LICENSE.md"
+                target="_blank"
+                href="https://www.wuppertal.de/geoportal/Nutzungsbedingungen/NB-GDIKOM-C_Geodaten.pdf"
               >
-                Openmaptiles
-              </a>{" "}
-              und{" "}
+                NB-GDIKOM C
+              </a>). (2) Kartendienste (WMS) des Regionalverbandes Ruhr (RVR). 
+              Datengrundlagen: <b>Stadtkarte 2.0</b> (ohne Kartenschrift) und <b>Kartenschrift aus der 
+              Stadtkarte 2.0</b>. (Details s. Hintergrundkarte Stadtplan.)
+            </li>
+            <li>
+              <strong>Stadtplan</strong>: Kartendienst (WMS) des Regionalverbandes Ruhr (RVR). 
+              Datengrundlage: <b>Stadtkarte 2.0</b>. Wöchentlich in einem automatischen Prozess aktualisierte 
+              Zusammenführung des Straßennetzes der OpenStreetMap mit Amtlichen Geobasisdaten des Landes 
+              NRW aus den Fachverfahren ALKIS (Gebäude, Flächennutzungen) und ATKIS (Gewässer). 
+              © RVR und Kooperationspartner (
               <a
-                target="_legal"
+                target="_blank"
+                href="https://www.govdata.de/dl-de/by-2-0"
+              >
+                Datenlizenz Deutschland - Namensnennung - Version 2.0
+              </a>).{" "}  
+              Lizenzen der Ausgangsprodukte:{" "} 
+              <a
+                target="_blank"
+                href="https://www.govdata.de/dl-de/zero-2-0"
+              >
+                Datenlizenz Deutschland - Zero - Version 2.0
+              </a>{" "}
+              (Amtliche Geobasisdaten) und{" "}  
+              <a
+                target="_blank"
                 href="https://www.opendatacommons.org/licenses/odbl/1.0/"
               >
                 ODbL
               </a>{" "}
               (OpenStreetMap contributors).
-            </li>
-            <li>
-              <strong>Luftbildkarte</strong>: (1) Kartendienst (WMS) des RVR.
-              Datengrundlage:{" "}
-              <strong>Digitale Orthophotos (DOP) des Landes NRW</strong>{" "}
-              WMS-Dienst für farbige, digitale, georeferenzierte, lagegenaue,
-              entzerrte Luftbilder des Landes NRW. (
-              <a
-                target="_legal"
-                href="https://www.bezreg-koeln.nrw.de/brk_internet/geobasis/luftbildinformationen/aktuell/digitale_orthophotos/index.html"
-              >
-                weiter Informationen
-              </a>
-              ). (2) Kartendienste (WMS) des Regionalverbandes Ruhr (RVR).
-              Datengrundlagen: <strong>Stadtkarte 2.0</strong> und{" "}
-              <strong>Kartenschrift aus der Stadtkarte 2.0</strong>. (Details s.
-              Hintergrundkarte Stadtplan).
-            </li>
-            <li>
-              <strong>DTK (bunt)</strong>: DTK Sammeldienst des Landes NRW.
-              Datengrundlage: <strong>DTK (bunt)</strong> Dieser Dienst enthält
-              alle topographischen Kartenwerke des Landes Nordrhein-Westfalen
-              sowie in den kleineren Maßstäben topographische Kartenwerke des
-              Bundes. Angefangen von einer Übersichtskarte für NRW über die
-              DTK500 bis zur DTK250 des Bundesamtes für Kartographie und
-              Geodäsie und den topographischen Karten DTK100, DTK50, DTK25,
-              DTK10 NRW von Geobasis NRW, bis hin zur ABK und ALKIS der Kommunen
-              sind alle Standardkartenwerke in einem Layer vereint. Durch die
-              voreingestellten Maßstabsbereiche wird gewährleistet, dass in
-              jedem Maßstab die ideale Karte präsentiert wird.
-              Nutzungsbedingungen: siehe{" "}
-              <a
-                target="_legal"
-                href="http://www.bezreg-koeln.nrw.de/brk_internet/geobasis/lizenzbedingungen_geobasis_nrw.pdf"
-              >
-                Nutzungsbedingungen Geobasis NRW
-              </a>
-              , Für die DTK 250, DTK 500 gelten die Nutzungsbedingungen des BKG:
-              ©{" "}
-              <a target="_legal" href="www.govdata.de/dl-de/by-2-0">
-                GeoBasis-DE / BKG(2020) dl-de/by-2-0
-              </a>
             </li>
           </ul>
         </div>

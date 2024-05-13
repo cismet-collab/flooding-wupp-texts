@@ -47,9 +47,10 @@ jobs:
           git push --tags
       - name: Checkout main branch and merge dev
         run: |
-          git fetch
+          git fetch --all
           git checkout main
-          git merge dev --no-ff -m "Merge dev to main with new release version"
+          git merge dev --no-ff --strategy-option=theirs -m "Merge dev to main with new release version"
+          git push --force origin main
       - name: Push changes to main branch
         run: git push origin main
       # Additional steps for deployment and build process

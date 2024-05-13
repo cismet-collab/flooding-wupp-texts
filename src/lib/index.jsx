@@ -40,11 +40,13 @@ const getCollabedHelpComponentConfig = ({
               href="https://www.gis-rest.nrw.de/atomFeed/rest/atom/182925c1-879f-4054-bd69-b6f28e05b270.html"
             >
               Land NRW
-            </a>{" "}(2. Umsetzungszyklus der EU-HWRM-RL 12/2019)
+            </a>{" "}
+            (2. Umsetzungszyklus der EU-HWRM-RL 12/2019)
           </div>
         }
         version={version}
         reactCismapRHMVersion={reactCismapRHMVersion}
+        hintergrundkartenText="True Orthophoto 2022, Amtliche Basiskarte (ABK), Hillshade © Stadt Wuppertal | Stadtkarte 2.0 © RVR"
         logo={
           <a
             className="renderAsLink"

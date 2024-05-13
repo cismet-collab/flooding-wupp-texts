@@ -23,6 +23,7 @@ import DigiTalLogo from "./help/assets/Logo_DigiTalZwilling.png";
 import { UIDispatchContext } from "react-cismap/contexts/UIContextProvider";
 const getCollabedHelpComponentConfig = ({
   version,
+  versionString,
   reactCismapRHMVersion,
   footerLogoUrl = DigiTalLogo,
   email,
@@ -45,6 +46,7 @@ const getCollabedHelpComponentConfig = ({
           </div>
         }
         version={version}
+        versionString={versionString}
         reactCismapRHMVersion={reactCismapRHMVersion}
         hintergrundkartenText="True Orthophoto 2022, Amtliche Basiskarte (ABK), Hillshade © Stadt Wuppertal | Stadtkarte 2.0 © RVR"
         logo={

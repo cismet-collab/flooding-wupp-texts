@@ -31,7 +31,7 @@ const getCollabedHelpComponentConfig = ({
     const { setAppMenuActiveMenuSection } = useContext(UIDispatchContext);
     return (
       <Help99Footer
-        appName="TopicMap Hochwassergefahrenkarte Wuppertal"
+        appName="Teilzwilling Hochwassergefahrenkarte Wuppertal"
         taglineModelling={
           <div>
             <b>Modellierung</b>:{" "}

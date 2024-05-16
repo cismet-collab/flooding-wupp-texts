@@ -67,7 +67,28 @@ const Component = () => {
               Ingenieurbüro Reinhard Beck GmbH & Co. KG / Wuppertal.) © Wuppertaler 
               Stadtwerke WSW Energie & Wasser AG. (2) Kartendienst (WMS) des 
               Regionalverbandes Ruhr (RVR). Datengrundlage: <b>Stadtkarte 2.0</b>{" "} 
-              ohne Kartenschrift. (Details s. Hintergrundkarte Stadtplan.)
+              ohne Kartenschrift. (Details s. Hintergrundkarte Stadtplan.) 
+              (3) Kartendienst (WMS) des Bundesamtes für 
+              Kartographie und Geodäsie (
+              <a
+                target="_blank"
+                href="https://www.bkg.bund.de/"
+              >
+                BKG
+              </a>). Datengrundlage: <b>basemap.de Web 
+              Vektor</b> © GeoBasis-DE /{" "} 
+              <a
+                target="_blank"
+                href="https://www.bkg.bund.de/"
+              >
+                BKG
+              </a>{" "} (2024){" "}  
+              <a
+                target="_blank"
+                href="https://creativecommons.org/licenses/by/4.0/"
+              >
+                CC BY 4.0
+              </a>.
             </li>
             <li>
               <strong>Luftbildkarte</strong>: (1) Kartendienst (WMS) der Stadt Wuppertal. Datengrundlage:{" "} 

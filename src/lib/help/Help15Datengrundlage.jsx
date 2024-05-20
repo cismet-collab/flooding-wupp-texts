@@ -63,7 +63,7 @@ const Component = () => {
               (b) <b>Hillshade</b> (Schummerungsdarstellung eines für hydrologische 
               Fragestellungen optimierten Digitalen Geländemodells aus 
               Laserscanner-Befliegungen (12/2008 und 01/2009) mit ergänztem 
-              Gebäudebestand (Auflösung 25cm x 25cm), ausgeführt in 2012 vom 
+              Gebäudebestand (Auflösung 25 cm x 25 cm), ausgeführt in 2012 vom 
               Ingenieurbüro Reinhard Beck GmbH & Co. KG / Wuppertal.) © Wuppertaler 
               Stadtwerke WSW Energie & Wasser AG. (2) Kartendienst (WMS) des 
               Regionalverbandes Ruhr (RVR). Datengrundlage: <b>Stadtkarte 2.0</b>{" "} 

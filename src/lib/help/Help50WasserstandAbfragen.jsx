@@ -19,11 +19,7 @@ const Component = () => {
             Durch Anklicken der Schaltfläche <Icon name="crosshairs" /> oberhalb
             des Kontrollfeldes aktivieren Sie den Modus zur Abfrage der
             maximalen Wassertiefen, die für jede 1x1 m Rasterzelle berechnet
-            worden sind. Falls erforderlich wird ein großer Maßstab (Zoomstufe 19) 
-            eingestellt, damit Sie eine Rasterzelle exakt identifizieren und auswählen 
-            können. Dieser Zoom erfolgt auch, wenn Sie sich bereits im Abfragemodus 
-            befinden, dort einen kleineren Maßstab als Zoomstufe 19 eingestellt haben 
-            und in diesem Zustand auf eine Rasterzelle klicken.
+            worden sind.
           </p>  
           <p>  
             Anstelle der Schaltfläche erscheint im Abfragemodus das
